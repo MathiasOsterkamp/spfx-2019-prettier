@@ -1,0 +1,13 @@
+{
+  'singleQuote': true, # use quotes instead of double quotes
+  'jsxSingleQuote': true, # single quotes for jsx
+  'jsxBracketSameLine': true, # closing bracked in same line
+  'arrowParens': 'always', # use bracked in arrow functions
+  'printWidth': 120, # preferred width (not same as eslint max-length)
+  'tabWidth': 2, # number of spaces
+  'useTabs': false, # spaces instead of tabs
+  'semi': true, # semicolons at ends of statement
+  'trailingComma': 'none', # removes trailing comma inside objects
+  'htmlWhitespaceSensitivity': 'strict', # whitespace inside html is significant
+  'endOfLine': 'auto' # correct end of line
+}

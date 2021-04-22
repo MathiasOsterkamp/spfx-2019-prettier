@@ -1,0 +1,6 @@
+# Ignore artifacts:
+sharepoint
+lib
+node_modules
+temp
+dist

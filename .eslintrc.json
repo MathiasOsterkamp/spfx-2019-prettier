@@ -1,0 +1,45 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "no-multiple-empty-lines": "error",
+    "no-multi-spaces": "error",
+    "no-var": "error",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "semi": ["error", "always"]
+  },
+  "ignorePatterns": [
+    "*.js",
+    "**/coverage",
+    "**/dist",
+    "**/etc",
+    "**/lib",
+    "**/sharepoint",
+    "**/lib-amd",
+    "**/lib-commonjs",
+    "**/node_modules",
+    "**/temp",
+    "**/*.scss.ts"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
